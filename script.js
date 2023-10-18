@@ -18,7 +18,7 @@ function getPokemon(e) {
       for(let i = 0; i < data.types.length; i++){
         text += data.types[i].type.name + " ";
       }
-      document.getElementById("demo").innerHTML = text;
+      document.getElementById("type").innerHTML = text;
       
       document.querySelector(".pokemonBox").innerHTML = `
       <div class="BG">
